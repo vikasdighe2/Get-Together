@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.alluresoft.gettogether.SearchActivity">
+
+    <include layout="@layout/search_page_toolbar"
+        android:id="@+id/search_page_toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/search_bar_layout"
+        android:layout_below="@+id/search_page_toolbar"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textWebEditText"
+            android:ems="10"
+            android:elevation="1dp"
+            android:id="@+id/search_bar"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/search_bar_rounded_corner"
+            android:textColor="#000000"
+            android:paddingLeft="10dp"
+            android:textColorHint="#000000"
+            android:hint="Search"
+            android:fontFamily="verdena"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <LinearLayout
+            android:layout_below="@id/search_bar"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5">
+
+            <Button
+                android:id="@+id/meet_up"
+                style="?android:textAppearanceSmall"
+                android:layout_width="151dp"
+                android:layout_height="40dp"
+                android:background="@drawable/search_page_btn"
+                android:textAllCaps="false"
+                android:text="Meet Ups"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:onClick="onClick"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5">
+
+                <Button
+                    android:id="@+id/people"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="151dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/search_page_btn"
+                    android:textAllCaps="false"
+                    android:text="Peoples"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#000000"
+                    android:onClick="onClick"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

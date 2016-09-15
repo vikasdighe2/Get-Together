@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="blackNormal">#8E8D8C</color>
+    <color name="tab_active">#2BB9E6</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="white">#ffffff</color>
+    <color name="image_item_selected_for_dots">#ffffff</color>
+    <color name="image_item_unselected_for_dots">#7e7e7e</color>
+    <color name="lighter_gray">#D3D3D3</color>
+    <color name="black_gray">#3C3D3D</color>
+    <color name="green">#049E12</color>
+</resources>
